@@ -3,17 +3,17 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 # core / critical
-choco install firefox bitwarden googlechrome thunderbird 7zip -y
+choco install firefox bitwarden googlechrome thunderbird 7zip winrar -y
 
 # sub-core / runtimes
-choco install jre8 winrar python nodejs.install -y
+choco install jre8 python nodejs.install -y
 refreshenv
 
 # light utils
 choco install sumatrapdf sublimetext3 notepadplusplus.install vscode -y
 
 # medium / media utils
-choco install vlc ccleaner gimp sqlite malwarebytes -y
+choco install vlc ccleaner gimp sqlite malwarebytes postman -y
 
 # heavy utils
 choco install jetbrainstoolbox putty.install androidstudio -y
