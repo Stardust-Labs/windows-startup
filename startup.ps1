@@ -16,7 +16,7 @@ choco install sumatrapdf sublimetext3 notepadplusplus.install vscode -y
 choco install vlc ccleaner gimp sqlite malwarebytes postman -y
 
 # heavy utils
-choco install jetbrainstoolbox putty.install androidstudio -y
+choco install jetbrainstoolbox putty.install androidstudio dbeaver -y
 
 # music
 choco install musicbee audacity -y
@@ -25,7 +25,7 @@ choco install musicbee audacity -y
 choco install discord steam goggalaxy twitch dolphin -y
 
 # supplementary
-choco install join.me godot flashplayerplugin -y
+choco install join.me godot flashplayerplugin instanteyedropper.app -y
 
 ## Create some file architecture
 $docs ~/Documents
